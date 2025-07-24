@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1{
+            border-color: rgb(8, 8, 231);
+            border-collapse: collapse;
+        }
+        table{
+            border-color: rgb(17, 236, 17);
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+           <td rowspan="2">Table-1</td>
+           <td>Table-1</td> 
+        </tr>
+        <tr>
+            <td>
+                <table class="s1" border="1">
+                  <tr>
+                    <td>table-2</td>
+                    <td>table-2</td>
+                  </tr>
+                  <tr>
+                    <td>table-2</td>
+                    <td>table-2</td>
+                  </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>table-3</td>
+            <td>table-3</td>
+        </tr>
+    </table>
+</body>
+</html>
